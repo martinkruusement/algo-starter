@@ -2,7 +2,7 @@ const cases = require('./load-tests.js')
 
 function solution (A) {
   let input = A
-  let output =
+  let output = null
 
   return output
 }
