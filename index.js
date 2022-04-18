@@ -2,11 +2,10 @@ const cases = require('./load-tests.js')
 
 function solution (A) {
   let input = A
-  let output = input.map(item => item * 2)
-  output[2] = 'NORMAALNE'
+  let output = input.map(n => n * 2)
 
   return output
 }
 
-solution(cases[1].in)
+solution(cases[0].in)
 module.exports = solution
