@@ -1,6 +1,6 @@
 ---
-- in: [1, 1, 1, 1] # TEST CASE 1 INPUT
-  out: [2, 2, 2, 2] # EXPECTED OUTPUT
+- in: 
+  out: 
 
-- in: [2, 2, 2, 2]
-  out: [4, 4, 4, 4]
+- in: 
+  out: 
