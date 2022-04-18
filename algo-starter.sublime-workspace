@@ -3,166 +3,37 @@
 	{
 		"selected_items":
 		[
-			[
-				"algori",
-				"algorithm"
-			],
-			[
-				"traec",
-				"trace"
-			],
-			[
-				"moduel",
-				"module"
-			],
-			[
-				"vue",
-				"<style> css-scoped.vue ✌"
-			]
+			
 		]
 	},
 	"buffers":
 	[
 		{
 			"file": "index.js",
+			"redo_stack":
+			[],
 			"settings":
 			{
 				"buffer_size": 170,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
+			},
+			"undo_stack":
+			[
+
+			]
 		},
 		{
 			"file": "test-cases.yml",
 			"settings":
 			{
 				"buffer_size": 34,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 1629,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
-				[
-					4,
-					1,
-					"cut",
-					null,
-					"AQAAAEoGAAAAAAAASgYAAAAAAAAkAAAACiMgRWRpdG9yIGNvbmZpZwoqLnN1YmxpbWUtd29ya3NwYWNl",
-					"AQAAAAAAAAABAAAAbgYAAAAAAABKBgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
-					"cut",
-					null,
-					"AQAAAEoGAAAAAAAASgYAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAASgYAAAAAAABKBgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					14,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgE9A"
-				],
-				[
-					17,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					20,
-					1,
-					"insert",
-					{
-						"characters": "#"
-					},
-					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					22,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAAEAAAAAAAAAAgAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					24,
-					1,
-					"insert",
-					{
-						"characters": "Ignore"
-					},
-					"BgAAAAIAAAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAHAAAAAAAAAAAAAAAHAAAAAAAAAAgAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					25,
-					1,
-					"delete_word",
-					{
-						"forward": false
-					},
-					"AQAAAAIAAAAAAAAAAgAAAAAAAAAGAAAASWdub3Jl",
-					"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					26,
-					2,
-					"left_delete",
-					null,
-					"AgAAAAEAAAAAAAAAAQAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAAAAAABAAAAIw",
-					"AQAAAAAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					28,
-					1,
-					"insert",
-					{
-						"characters": "package-lock"
-					},
-					"DAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACgAAAAAAAAAAAAAACgAAAAAAAAALAAAAAAAAAAAAAAALAAAAAAAAAAwAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					29,
-					1,
-					"insert",
-					{
-						"characters": ".js"
-					},
-					"AwAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					30,
-					1,
-					"insert",
-					{
-						"characters": "on"
-					},
-					"AgAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAADwAAAAAAAAAPAAAAAAAAAAAAAAAAAPC/"
-				]
+
 			]
 		}
 	],
@@ -178,24 +49,12 @@
 		"selected_items":
 		[
 			[
-				"pui",
-				"Packages UI"
+				"qlog",
+				"Quokka.js: Toggle Auto Log"
 			],
 			[
-				"edit",
-				"Color Scheme Editor: Edit current color scheme"
-			],
-			[
-				"convert color sc",
-				"Plugin Development: Convert Color Scheme to .sublime-color-scheme"
-			],
-			[
-				"edit sch",
-				"Color Scheme Editor: Edit current color scheme"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
+				"quos",
+				"Quokka.js: Start on Current File"
 			],
 			[
 				"minima",
@@ -220,14 +79,6 @@
 			[
 				"diag",
 				"LSP: Toggle Diagnostics Panel"
-			],
-			[
-				"quos",
-				"Quokka.js: Start on Current File"
-			],
-			[
-				"qlog",
-				"Quokka.js: Toggle Auto Log"
 			],
 			[
 				"quosta",
@@ -374,6 +225,10 @@
 				"LSP: Toggle Log Panel"
 			],
 			[
+				"pui",
+				"Packages UI"
+			],
+			[
 				"disab",
 				"LSP: Disable Language Server in Project"
 			],
@@ -418,27 +273,11 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/martinkruusement/Projektid/algo/fibonacci"
+		"/Users/martinkruusement/Projektid/algo/starter"
 	],
 	"file_history":
 	[
-		"/Users/martinkruusement/Library/Application Support/Sublime Text/Packages/Color Scheme - Wallaby/Limitless.tmTheme",
-		"/Users/martinkruusement/Library/Application Support/Sublime Text/Packages/Default/Preferences.sublime-settings",
-		"/Users/martinkruusement/Library/Application Support/Sublime Text/Packages/Color Scheme - Wallaby/Limitless.sublime-color-scheme",
-		"/Users/martinkruusement/Library/Application Support/Sublime Text/Packages/Limitless.sublime-color-scheme",
-		"/Users/martinkruusement/Projektid/algo/starter/load-tests.js",
-		"/Users/martinkruusement/Projektid/algo/starter/index.spec.js",
-		"/Users/martinkruusement/Projektid/algo/starter/test-cases.js",
-		"/Users/martinkruusement/Projektid/algo/starter/test-cases.yml",
-		"/Users/martinkruusement/Projektid/algo/starter/wallaby.conf.js",
-		"/Users/martinkruusement/Projektid/algo/starter/quokka-inline-test.js",
-		"/Users/martinkruusement/Projektid/algo/starter/.eslintrc.json",
-		"/Users/martinkruusement/Projektid/algo/starter/package.json",
-		"/Users/martinkruusement/Projektid/algo/starter/algo-starter.sublime-project",
-		"/Users/martinkruusement/Projektid/algo/starter/wallaby.js",
-		"/Users/martinkruusement/Projektid/algo/starter/jest.config.js",
-		"/Users/martinkruusement/Projektid/algo/starter/index.js",
-		"/Users/martinkruusement/Projektid/algo/starter/test.vue"
+
 	],
 	"find":
 	{
@@ -456,6 +295,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -491,15 +331,122 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								118,
+								118
 							]
 						],
 						"settings":
 						{
 							"at_wb_tests_view": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".(){}[],'\"=<>/\\+-|&*%=$#@! ",
+									"selector": "source.python"
+								},
+								{
+									"characters": ":.(){}[],'\"=<>/\\+-|&*%=$#@! ",
+									"selector": "source & - source.python - constant.numeric"
+								},
+								{
+									"characters": " qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP",
+									"selector": "text"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										119,
+										120
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										64,
+										65
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
 							"git_gutter_is_enabled": true,
-							"lsp_uri": "file:///Users/martinkruusement/Projektid/algo/fibonacci/index.js",
+							"lsp_active": true,
+							"lsp_uri": "file:///Users/martinkruusement/Projektid/algo/starter/index.js",
+							"reload_file_on_change": false,
+							"scope_hunter.view_enable": false,
 							"syntax": "Packages/User/JavaScript-PRO.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -520,6 +467,7 @@
 				{
 					"buffer": 1,
 					"file": "test-cases.yml",
+					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
@@ -555,174 +503,67 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"git_gutter_is_enabled": true,
-							"lsp_uri": "file:///Users/martinkruusement/Projektid/algo/fibonacci/test-cases.yml",
+							"lsp_uri": "file:///Users/martinkruusement/Projektid/algo/starter/test-cases.yml",
 							"syntax": "Packages/YAML/YAML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": ".gitignore",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1629,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17,
-								17
-							]
-						],
-						"settings":
-						{
-							"at_wb_tests_view": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"git_gutter_is_enabled": true,
-							"lsp_uri": "file:///Users/martinkruusement/Projektid/algo/fibonacci/.gitignore",
-							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -768,18 +609,46 @@
 		"rows":
 		[
 			0.0,
-			0.5,
+			0.686219985086,
 			1.0
 		]
 	},
 	"menu_visible": true,
 	"output.diagnostics":
 	{
-		"height": 0.0
+		"height": 174.0
 	},
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.language servers":
+	{
+		"height": 220.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups-dummy":
+	{
+		"height": 0.0
+	},
+	"output.quokkajs_console":
+	{
+		"height": 220.0
+	},
+	"output.scopehunter.results":
+	{
+		"height": 0.0
+	},
+	"output.wallabyjs":
+	{
+		"height": 539.0
+	},
+	"output.wallabyjs_console":
+	{
+		"height": 935.0
 	},
 	"pinned_build_system": "",
 	"project": "algo-starter.sublime-project",
@@ -843,7 +712,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
