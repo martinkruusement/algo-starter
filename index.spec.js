@@ -30,7 +30,7 @@ describe('TEST CASES:', () => {
     if (failed) {
       extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
     }
-    test('\x1b[0m\x1b[1m1\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[1].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+    test('\x1b[0m\x1b[1m1\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[1].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[1].out + extras + '\x1b[2m', () => {
       cases[1].in // ?
       expect(result).toStrictEqual(cases[1].out)
     })
@@ -42,7 +42,7 @@ describe('TEST CASES:', () => {
     if (failed) {
       extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
     }
-    test('\x1b[0m\x1b[1m2\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[2].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+    test('\x1b[0m\x1b[1m2\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[2].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[2].out + extras + '\x1b[2m', () => {
       cases[2].in // ?
       expect(result).toStrictEqual(cases[2].out)
     })
@@ -54,7 +54,7 @@ describe('TEST CASES:', () => {
     if (failed) {
       extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
     }
-    test('\x1b[0m\x1b[1m3\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[3].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+    test('\x1b[0m\x1b[1m3\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[3].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[3].out + extras + '\x1b[2m', () => {
       cases[3].in // ?
       expect(result).toStrictEqual(cases[3].out)
     })
@@ -66,7 +66,7 @@ describe('TEST CASES:', () => {
     if (failed) {
       extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
     }
-    test('\x1b[0m\x1b[1m4\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[4].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+    test('\x1b[0m\x1b[1m4\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[4].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[4].out + extras + '\x1b[2m', () => {
       cases[4].in // ?
       expect(result).toStrictEqual(cases[4].out)
     })
@@ -78,7 +78,7 @@ describe('TEST CASES:', () => {
     if (failed) {
       extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
     }
-    test('\x1b[0m\x1b[1m5\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[5].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+    test('\x1b[0m\x1b[1m5\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[5].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[5].out + extras + '\x1b[2m', () => {
       cases[5].in // ?
       expect(result).toStrictEqual(cases[5].out)
     })
@@ -90,7 +90,7 @@ describe('TEST CASES:', () => {
     if (failed) {
       extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
     }
-    test('\x1b[0m\x1b[1m6\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[6].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+    test('\x1b[0m\x1b[1m6\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[6].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[6].out + extras + '\x1b[2m', () => {
       cases[6].in // ?
       expect(result).toStrictEqual(cases[6].out)
     })
@@ -102,7 +102,7 @@ describe('TEST CASES:', () => {
     if (failed) {
       extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
     }
-    test('\x1b[0m\x1b[1m7\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[7].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+    test('\x1b[0m\x1b[1m7\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[7].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[7].out + extras + '\x1b[2m', () => {
       cases[7].in // ?
       expect(result).toStrictEqual(cases[7].out)
     })
@@ -114,7 +114,7 @@ describe('TEST CASES:', () => {
     if (failed) {
       extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
     }
-    test('\x1b[0m\x1b[1m8\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[8].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+    test('\x1b[0m\x1b[1m8\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[8].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[8].out + extras + '\x1b[2m', () => {
       cases[8].in // ?
       expect(result).toStrictEqual(cases[8].out)
     })
@@ -126,7 +126,7 @@ describe('TEST CASES:', () => {
     if (failed) {
       extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
     }
-    test('\x1b[0m\x1b[1m9\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[9].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+    test('\x1b[0m\x1b[1m9\x1b[0m\x1b[2m:\x1b[0m \x1b[1m' + cases[9].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[9].out + extras + '\x1b[2m', () => {
       cases[9].in // ?
       expect(result).toStrictEqual(cases[9].out)
     })
