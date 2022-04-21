@@ -11,53 +11,124 @@ describe('MARTIN\'S ALGORITHM TEST SUITE', () => {
 })
 
 describe('TEST CASES:', () => {
-  cases.length > '0' && test('0: ' + cases[0].in, () => {
-    cases[0].in // ?
-    expect(alg(cases[0].in)).toStrictEqual(cases[0].out)
-  })
-  cases.length > '1' && test('1: ' + cases[1].in, () => {
-    cases[1].in // ?
-    expect(alg(cases[1].in))
-      .toStrictEqual(cases[1].out)
-  })
-  cases.length > '2' && test('2: ' + cases[2].in, () => {
-    cases[2].in // ?
-    expect(alg(cases[2].in))
-      .toStrictEqual(cases[2].out)
-  })
-  cases.length > '3' && test('3: ' + cases[3].in, () => {
-    cases[3].in // ?
-    expect(alg(cases[3].in))
-      .toStrictEqual(cases[3].out)
-  })
-  cases.length > '4' && test('4: ' + cases[4].in, () => {
-    cases[4].in // ?
-    expect(alg(cases[4].in))
-      .toStrictEqual(cases[4].out)
-  })
-  cases.length > '5' && test('5: ' + cases[5].in, () => {
-    cases[5].in // ?
-    expect(alg(cases[5].in))
-      .toStrictEqual(cases[5].out)
-  })
-  cases.length > '6' && test('6: ' + cases[6].in, () => {
-    cases[6].in // ?
-    expect(alg(cases[6].in))
-      .toStrictEqual(cases[6].out)
-  })
-  cases.length > '7' && test('7: ' + cases[7].in, () => {
-    cases[7].in // ?
-    expect(alg(cases[7].in))
-      .toStrictEqual(cases[7].out)
-  })
-  cases.length > '8' && test('8: ' + cases[8].in, () => {
-    cases[8].in // ?
-    expect(alg(cases[8].in))
-      .toStrictEqual(cases[8].out)
-  })
-  cases.length > '9' && test('9: ' + cases[9].in, () => {
-    cases[9].in // ?
-    expect(alg(cases[9].in))
-      .toStrictEqual(cases[9].out)
-  })
+  if (cases.length > 0) {
+    let result = alg(cases[0].in)
+    let failed = result !== cases[0].out
+    let extras = ''
+    if (failed) {
+      extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
+    }
+    test('\x1b[0m\x1b[1m0: \x1b[1m' + cases[0].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+      cases[0].in // ?
+      expect(result).toStrictEqual(cases[0].out)
+    })
+  }
+  if (cases.length > 1) {
+    let result = alg(cases[1].in)
+    let failed = result !== cases[1].out
+    let extras = ''
+    if (failed) {
+      extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
+    }
+    test('\x1b[0m\x1b[1m1: \x1b[1m' + cases[1].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+      cases[1].in // ?
+      expect(result).toStrictEqual(cases[1].out)
+    })
+  }
+  if (cases.length > 2) {
+    let result = alg(cases[2].in)
+    let failed = result !== cases[2].out
+    let extras = ''
+    if (failed) {
+      extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
+    }
+    test('\x1b[0m\x1b[1m2: \x1b[1m' + cases[2].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+      cases[2].in // ?
+      expect(result).toStrictEqual(cases[2].out)
+    })
+  }
+  if (cases.length > 3) {
+    let result = alg(cases[3].in)
+    let failed = result !== cases[3].out
+    let extras = ''
+    if (failed) {
+      extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
+    }
+    test('\x1b[0m\x1b[1m3: \x1b[1m' + cases[3].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+      cases[3].in // ?
+      expect(result).toStrictEqual(cases[3].out)
+    })
+  }
+  if (cases.length > 4) {
+    let result = alg(cases[4].in)
+    let failed = result !== cases[4].out
+    let extras = ''
+    if (failed) {
+      extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
+    }
+    test('\x1b[0m\x1b[1m4: \x1b[1m' + cases[4].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+      cases[4].in // ?
+      expect(result).toStrictEqual(cases[4].out)
+    })
+  }
+  if (cases.length > 5) {
+    let result = alg(cases[5].in)
+    let failed = result !== cases[5].out
+    let extras = ''
+    if (failed) {
+      extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
+    }
+    test('\x1b[0m\x1b[1m5: \x1b[1m' + cases[5].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+      cases[5].in // ?
+      expect(result).toStrictEqual(cases[5].out)
+    })
+  }
+  if (cases.length > 6) {
+    let result = alg(cases[6].in)
+    let failed = result !== cases[6].out
+    let extras = ''
+    if (failed) {
+      extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
+    }
+    test('\x1b[0m\x1b[1m6: \x1b[1m' + cases[6].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+      cases[6].in // ?
+      expect(result).toStrictEqual(cases[6].out)
+    })
+  }
+  if (cases.length > 7) {
+    let result = alg(cases[7].in)
+    let failed = result !== cases[7].out
+    let extras = ''
+    if (failed) {
+      extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
+    }
+    test('\x1b[0m\x1b[1m7: \x1b[1m' + cases[7].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+      cases[7].in // ?
+      expect(result).toStrictEqual(cases[7].out)
+    })
+  }
+  if (cases.length > 8) {
+    let result = alg(cases[8].in)
+    let failed = result !== cases[8].out
+    let extras = ''
+    if (failed) {
+      extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
+    }
+    test('\x1b[0m\x1b[1m8: \x1b[1m' + cases[8].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+      cases[8].in // ?
+      expect(result).toStrictEqual(cases[8].out)
+    })
+  }
+  if (cases.length > 9) {
+    let result = alg(cases[9].in)
+    let failed = result !== cases[9].out
+    let extras = ''
+    if (failed) {
+      extras += `  \x1b[1m\x1b[31m${result}\x1b[0m  `
+    }
+    test('\x1b[0m\x1b[1m9: \x1b[1m' + cases[9].in + '\x1b[0m\x1b[2m ⇒ \x1b[0m\x1b[1m' + cases[0].out + extras + '\x1b[2m', () => {
+      cases[9].in // ?
+      expect(result).toStrictEqual(cases[9].out)
+    })
+  }
 })
