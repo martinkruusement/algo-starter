@@ -1,5 +1,7 @@
+# This folder is .gitignore-d and was not uploaded to Github
+
 # Copy this file to your home directory (~ on mac)
-# And source it in your shell init script (source limitless_algo_automation.sh)
+# And source it in your shell init script (source ~/limitless_algo_automation.sh)
 
 algo() {
   # Keep everything in the correct folder
