@@ -1,4 +1,5 @@
 package-lock.json
+*.sublime-workspace
 
 # Logs
 logs
