@@ -14,6 +14,9 @@ algo() {
   # Wipe git history of the template repo and start fresh
   rm -rf .git
   git init
+  echo "" >> .gitignore          
+  echo "# Ignore automation scripts" >> .gitignore 
+  echo "/automation" >> .gitignore 
   git add .
   git commit -m "Created $1"
   # Connect the new repo to github as your new public repository
