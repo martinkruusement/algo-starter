@@ -1,6 +1,6 @@
 {
   "name": "algo-starter",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Martin's Starter Kit to Study and Solve Algorithm Questions with JavaScript",
   "main": "index.js",
   "scripts": {
