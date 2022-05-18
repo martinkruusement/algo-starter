@@ -32,10 +32,10 @@
 
 
 ## Setup
-### Add the automation script to your  `~/.zshrc:`
+### Add the automation script to your `~/.zshrc:`
 `source ~/limitless_algo_automation.sh`  
 
-The files aren't automatically copied.  
+This file isn't automatically copied.  
 Do this manually before you try to source them from (`~`)
 
 ## Requirements:
